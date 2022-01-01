@@ -7,16 +7,16 @@ class student
 	  int age;
 	  
 	  private :
-	  	char name;
+	  	string name;
 	  	
 	  	public :
 	  		
-	  		char getname()
+	  		string getname()
 	  		{
 	  			return name;
 			}
 			
-			void setname (char c)
+			void setname (string c)
 			{
 				name = c;
 			}
@@ -31,5 +31,7 @@ class student
 int main()
 {
 	student s1;
-	s1.setname('naman');
+	s1.getname();
+	s1.setname("naman");
+	s1.display();
 }
